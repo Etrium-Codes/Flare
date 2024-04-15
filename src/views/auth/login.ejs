@@ -1,0 +1,48 @@
+<%- include('./../components/start.inc.ejs') %>
+
+<div class="container">
+    
+    <div class="centered">
+
+        <div class="form-container">
+            
+            <div class="form-logo">
+                <h2>Login</h2>
+            </div>
+    
+            <% if (errorMessage) { %>
+                <p style="color: red;"><%= errorMessage %></p>
+            <% } %>
+      
+            <div class="form-group">
+    
+                <form method="POST">
+    
+                    <div>
+                        <input type="text" placeholder="Username"
+                            name="username" required>
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Password"
+                            name="password" required>
+                    </div>
+                    <button name="login" id="submit" type="submit"
+                        value="submit"> 
+                        Login
+                    </button>
+    
+                </form>
+    
+            </div>
+    
+            <div class="undertext">
+                Don't have an account? <a href="/auth/register">Register</a>
+            </div>
+    
+        </div>
+
+    </div>
+
+</div>
+
+<%- include('./../components/end.inc.ejs') %>

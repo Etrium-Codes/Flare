@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* 
+=====================================
+TYPOGRAPHY STYLES
+=====================================
+Description: Global typography settings including fonts, headings, and text elements.
+*/
+
+/* Base Font Settings */
+/* -------------- */
+* {
+    font-family: Arial, Montserrat;
+
+    /*font-family: sans-serif;*/
+    text-size-adjust: 100%;
+}
+
+/* Base Elements */
+/* -------------- */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+} 
+
+/* Other Elements */
+/* -------------- */
+.data-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.data-label {
+    font-size: 16px;
+}
+
+.data-change {
+    font-size: 14px;
+}
+
+.user-role {
+    font-size: 0.85rem;
+}
+
+.notification-message {
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.notification-time {
+    font-size: 12px;
+}
+

@@ -1,0 +1,101 @@
+/* 
+=====================================
+THEMES STYLES
+=====================================
+*/
+
+/* Global Styles */
+/* -------------- */
+:root {
+    --bg: #14171b;
+    --content: #22242b;
+    --line: #22242b;
+    --text-active: white;
+    --text-s: #a1a8b0;
+    --text: #606264;
+}
+
+body {
+    background: var(--bg);
+}
+
+/* Layout Styles */
+/* -------------- */
+.sidebar {
+    background: var(--bg);
+
+    border-right: 1px solid var(--line);
+}
+
+.main {
+    background: var(--bg);
+}
+
+header {
+    color: white; 
+}
+
+/* Components Styles */
+/* -------------- */
+h1 {
+    color: var(--text-active);
+}
+
+.card {
+    border: 1px solid var(--line);
+}
+
+.fill {
+    background: var(--content);
+}
+
+.sidebar .user-content .profile-picture {
+    background-color: #ccc; 
+}
+
+/* Elements Styles */
+/* -------------- */
+select {
+    background: transparent;
+
+    border: none;
+    outline: none;
+}
+
+option {
+    background: var(--bg);
+}
+
+.data-value {
+    color: var(--text-active);
+}
+
+.data-change {
+    color: #4CAF50; 
+}
+
+.notification-message {
+    color: var(--text-active);
+}
+
+.notification-time {
+    color: var(--text-s);
+}
+
+.menu-title {
+    color: var(--text-s);
+}
+
+.menu-link i {
+    color: var(--text-s);
+}
+
+.user-name {
+    color: var(--text-s);
+}
+
+.notification {
+    color: #fff;
+    background: var(--content);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}

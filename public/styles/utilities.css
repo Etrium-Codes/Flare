@@ -1,0 +1,118 @@
+/* 
+=====================================
+UTILITY CLASSES
+=====================================
+Description: Helper classes for margins, padding, display properties, and more.
+*/
+
+/* Margin Utilities */
+/* -------------- */
+.m-8 { margin: 8px; }
+.m-16 { margin: 16px; }
+.m-20 { margin: 20px; }
+.m-30 { margin: 30px; }
+.m-40 { margin: 40px; }
+
+/* Top */
+.mt-8 { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+
+/* Bottom */
+.mb-8 { margin-bottom: 8px; }
+.mb-16 { margin-bottom: 16px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
+
+/* Left */
+.ml-8 { margin-left: 8px; }
+.ml-16 { margin-left: 16px; }
+.ml-20 { margin-left: 20px; }
+.ml-30 { margin-left: 30px; }
+.ml-40 { margin-left: 40px; }
+
+/* Right */
+.mr-8 { margin-right: 8px; }
+.mr-10 { margin-right: 10px; }
+.mr-16 { margin-right: 16px; }
+.mr-20 { margin-right: 20px; }
+.mr-30 { margin-right: 30px; }
+.mr-40 { margin-right: 40px; }
+
+
+/* Padding Utilities */
+/* -------------- */
+.p-0 { padding: 0px; }
+.p-8 { padding: 8px; }
+.p-16 { padding: 16px; }
+.p-20 { padding: 20px; }
+.p-30 { padding: 30px; }
+.p-40 { padding: 40px; }
+
+/* Top */
+.pt-0 { padding-top: 0px; }
+.pt-8 { padding-top: 8px; }
+.pt-10 { padding-top: 10px; }
+.pt-16 { padding-top: 16px; }
+.pt-20 { padding-top: 20px; }
+.pt-30 { padding-top: 30px; }
+.pt-40 { padding-top: 40px; }
+
+/* Bottom */
+.pb-0 { padding-bottom: 0px; }
+.pb-8 { padding-bottom: 8px; }
+.pb-10 { padding-bottom: 10px; }
+.pb-16 { padding-bottom: 16px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-30 { padding-bottom: 30px; }
+.pb-40 { padding-bottom: 40px; }
+
+/* Left */
+.pl-0 { padding-left: 0px !important; }
+.pl-4 { padding-left: 4px !important; }
+.pl-8 { padding-left: 8px; }
+.pl-16 { padding-left: 16px; }
+.pl-20 { padding-left: 20px; }
+.pl-30 { padding-left: 30px; }
+.pl-40 { padding-left: 40px; }
+
+/* Right */
+.pr-0 { padding-right: 0px; }
+.pr-8 { padding-right: 8px; }
+.pr-16 { padding-right: 16px; }
+.pr-20 { padding-right: 20px; }
+.pr-30 { padding-right: 30px; }
+.pr-40 { padding-right: 40px; }
+
+
+/* Gap Utilities */
+/* -------------- */
+.gp-8 { gap: 8px; }
+.gp-16 { gap: 16px; }
+.gp-20 { gap: 20px; }
+.gp-24 { gap: 24px; }
+.gp-32 { gap: 32px; }
+.gp-40 { gap: 40px; }
+.gp-48 { gap: 48px; }
+.gp-56 { gap: 56px; }
+.gp-64 { gap: 64px; }
+
+/* Radius Utilities */
+/* -------------- */
+.br-4 { border-radius: 4px; }
+.br-5 { border-radius: 5px;}
+.br-8 { border-radius: 8px; }
+.br-16 { border-radius: 16px; }
+.br-30 { border-radius: 30px; }
+.br-40 { border-radius: 40px; }
+
+/* Border Utilities */
+/* -------------- */
+.border-top { border-top: 1px solid var(--line); }
+.border-bottom { border-bottom: 1px solid var(--line); }
+.border-left { border-left: 1px solid var(--line); }
+.border-right { border-right: 1px solid var(--line); }
+.no-border { border: none; }

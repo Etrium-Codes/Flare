@@ -1,0 +1,137 @@
+
+
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg); 
+    border: 1px solid var(--line);
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px; 
+}
+  
+.profile-left {
+    display: flex;
+    align-items: center;
+}
+  
+.profile-image {
+    width: 60px; 
+    height: 60px;
+    background: #fff; 
+    border-radius: 50%; 
+    margin-right: 16px;
+}
+  
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.5em; 
+}
+  
+.profile-info p {
+    margin: 0;
+    font-size: 0.8em; 
+    color: #aaa; 
+}
+  
+.profile-actions {
+    display: flex;
+    align-items: center;
+}
+  
+.action-button {
+    background: var(--content); 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+  
+/*
+.action-button.edit:before {
+    content: ''; 
+    display: inline-block;
+    margin-right: 8px;
+}
+*/
+  
+.action-button.more {
+    font-size: 1.5em; 
+    padding: 0 8px;
+}
+  
+.action-button:hover {
+    background: #555; 
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100vh; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+.modal-content {
+    background: var(--bg);
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid var(--line);
+    width: 40%; 
+    border-radius: 5px;
+}
+
+#editForm {
+    padding: 32px;
+}
+
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.closeBtn:hover,
+.closeBtn:focus {
+    color: var(--content);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content form {
+    margin-top: 16px;
+}
+
+.modal-content input[type="text"] {
+    width: calc(100%); 
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    border: 1px solid var(--line); 
+    background: var(--bg); 
+    color: #fff; 
+    border-radius: 4px; 
+}
+
+.modal-content button {
+    background: var(--content); 
+    border: 1px solid var(--line);
+    color: #fff; 
+    padding: 8px 16px;
+    border-radius: 4px; 
+    cursor: pointer;
+    text-align: center;
+}
+  
+.modal-content button:hover {
+    background-color: var(--content); 
+}

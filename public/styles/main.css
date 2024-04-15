@@ -1,0 +1,35 @@
+/* 
+=====================================
+MAIN STYLESHEET
+=====================================
+*/
+
+/* Global Styles */
+/* -------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    overflow: none;
+
+    color: var(--text);
+}
+
+/* Style Params */
+/* -------------- */
+
+/* Fonts */
+:root {
+
+}
+
+/* Spacings */
+:root {
+    --spacing-standard: 20px;
+}
+
+/* Radius */
+:root {
+    --radius-standard: 5px;
+}

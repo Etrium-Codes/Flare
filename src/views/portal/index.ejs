@@ -1,0 +1,96 @@
+<%- include('./../components/start.inc.ejs') %>
+
+<div class="container">
+  <div class="main-layout">
+    
+    <%- include('./../components/sidebar.inc.ejs') %>
+
+    <div class="main">
+
+      <div class="header">
+          <h1>Dashboard</h1>
+
+          <div class="date-range-selector">
+              <select id="dateRange" name="dateRange">
+                <option value="1day">Last 1 day</option>
+                <option value="7days">Last 7 days</option>
+                <option value="30days">Last 30 days</option>
+                <option value="6months">Last 6 months</option>
+                <option value="12months">Last 12 months</option>
+                <option value="all">All time</option>
+              </select>
+          </div>
+      </div>
+      
+      <div class="flex-row mb-20 br-5 fill">
+          <div class="card">
+              <div class="data-value">13,041</div>
+              <div class="data-label">Lorem ipsum</div>
+              <div class="data-change">+4%</div>
+          </div>
+          <div class="card">
+              <div class="data-value">3,207</div>
+              <div class="data-label">Lorem ipsum</div>
+              <div class="data-change">+1%</div>
+          </div>
+          <div class="card">
+              <div class="data-value">9,834</div>
+              <div class="data-label">Lorem ipsum</div>
+              <div class="data-change">+8%</div>
+          </div>
+      </div>
+      
+      <div class="card mb-20 overflow: auto;">
+          <div style="overflow: auto;">
+            <div style="position:relative;width:100%;height:100%">
+              <canvas id="viewsChart"></canvas> 
+            </div>
+          </div>
+
+          <div class="flex-row gp-20">
+            <div class="card pl-0 pb-0 mr-16 no-border">
+              <div class="data-value">68%</div>
+              <div class="data-label">Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="card pb-0 mr-16 no-border">
+              <div class="data-value">75%</div>
+              <div class="data-label">Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="card pb-0 no-border">
+              <div class="data-value">82%</div>
+              <div class="data-label">Lorem ipsum dolor sit amet.</div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="flex-row mb-20 gp-20">
+          <div class="card">
+            <div class="data-value">68%</div>
+            <div class="data-label">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div class="card">
+            <div class="data-value">75%</div>
+            <div class="data-label">Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div class="card">
+            <div class="data-value">82%</div>
+            <div class="data-label">Lorem ipsum dolor sit amet.</div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% if (typeof notifyMessage !== 'undefined' && notifyMessage) { %>
+  <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        Notify('<%- notifyMessage %>');
+      });
+  </script>
+<% } %>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/js/graph.js"></script>
+
+<%- include('./../components/end.inc.ejs') %>
